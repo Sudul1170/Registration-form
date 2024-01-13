@@ -7,7 +7,7 @@ const { z } = require('zod');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect('mongodb+srv://bunty:bunty123@cluster0.llswy7y.mongodb.net/');
+mongoose.connect('mongodb+srv://Sudul1107:Sudul12345@cluster0.hsv8ql6.mongodb.net/?retryWrites=true&w=majority');
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
